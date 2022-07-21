@@ -1,0 +1,73 @@
+
+.container {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center; 
+}
+.container_boxs {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: stretch;
+  row-gap: 20px;  
+}
+.box { 
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: chartreuse;
+  border-radius: 10px;
+}
+.tarea {
+  background-color: rgb(0, 119, 255);
+  padding: 10px;
+  margin: 10px;
+}
+/*PRIMERA TAREA SEUDOCODIGO*/
+.box a:hover {
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  display: inline-block;
+  padding: 0.3rem .6rem;
+}
+/*SEGUNDA TAREA SEUDOCODIGO*/
+h2:hover {
+  text-decoration: none;
+  background-color: red;
+  color: white;
+  display: inline-block;
+  padding: 0.3rem .6rem;
+}
+/*TERCERA TAREA SEUDOCODIGO*/
+#tarea3 p:first-child{
+  background-color: red;
+  color: #fff;
+  padding: 0.2rem .5rem;
+}
+/*CUARTA TAREA SEUDOCODIGO*/
+form input:focus{
+  background-color: red;
+  color: white;
+  outline: none;
+  border: none;
+}
+/*QUINTAA TAREA SEUDOCODIGO*/
+.texto5::first-line{
+  background-color: red;
+  color: white;
+}
+/*SExTA TAREA SEUDOCODIGO*/
+.texto6::first-letter{
+  background-color: red;
+  color: white;
+}
+/*SEPTIMA TAREA SEUDOCODIGO*/
+.p7::before, .p7::after {
+  content: url(img/smiley.gif);
+}
